@@ -1,0 +1,485 @@
+*{margin: 0;padding: 0;}
+body {font-family: sans-serif;}
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.logo {width: 100%;
+		float: left;}
+
+
+
+	.logoo{    margin: 20px;
+			    margin-left: 60px;
+			    width: 600px;
+
+	}	
+
+
+	img{
+
+	}
+
+.banner{background-image: url(../image/banner.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		float: left;
+
+}	
+
+
+.hostdiv{width: 500px;
+		margin: 0 auto;
+		margin-bottom: 130px;
+		margin-top: 120px;
+
+}
+
+
+h1{text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid#127ce2d4;
+    color: white;
+    font-size: 50px;
+
+}
+
+p{text-align: center;
+	padding-top: 10px;
+	color: white;
+
+
+
+}
+.btn{padding: 8px 14px;
+    color: white;
+    border: 1px solid #127ce2d4;
+    outline: none;
+    cursor: pointer;
+    margin-top: 81px;
+    margin-left: 210px;
+    background: transparent;
+    transition: 0.2s;
+
+}
+
+
+
+.btn:hover{
+		background: #00000075;
+		color: white;
+		cursor: pointer;
+
+
+}
+
+
+
+
+
+.fas.fa-chevron-down{
+	
+    color: white;
+   
+    font-size: 30px;
+    margin-top: 150px;
+    margin-left: 248px;
+}
+
+
+.second{width: 100%;
+		float: left;
+		}
+
+
+.hostdiv-two{margin-top: 50px;
+			margin-bottom: 50px;}
+
+.top-div {
+		width: 850px;
+		margin:0 auto;
+}			
+
+.top-div h2 {
+			text-align: center;
+			padding: 20px;
+}
+
+
+
+
+.top-div p {color: #0000009e;
+			}
+
+
+.lower-div{
+		width: 320px;
+		margin-top: 130px;
+		margin-left: 20px;
+		display: inline-block;
+}
+
+.lower-div p{color: black
+		}
+
+
+.fas.fa-mobile-alt {
+    font-size: 80px;
+    background: #5fc3ff;
+    padding: 16px 30px;
+    color: white;
+    margin-left: 100px;
+    position: relative;
+}
+
+.fas.fa-mobile-alt:after{
+			content: "";
+			width: 50%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			background:#0585d36e;
+			position: absolute;
+}
+
+
+
+
+
+
+.fab.fa-telegram-plane{ font-size: 80px;
+				    background:#5fc3ff;
+				    padding: 16px 30px;
+				    color: white;
+				    margin-left: 100px;
+				    position: relative;
+
+}
+
+
+.fab.fa-telegram-plane:after{
+			content: "";
+			width: 50%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			background:#0585d36e;
+			position: absolute;
+
+
+}
+
+
+
+
+
+.fas.fa-bullhorn {
+					font-size: 80px;
+				    background: #5fc3ff;
+				    padding: 16px 30px;
+				    color: white;
+				    margin-left: 100px;
+				    position: relative;
+}
+
+
+
+.fas.fa-bullhorn:after{content: "";
+			width: 50%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			background:#0585d36e;
+			position: absolute;
+
+
+
+}
+
+
+
+
+
+
+.lower-div h2{text-align: center;
+				padding: 10px;}
+
+
+.third {width: 100%;
+		float: left;
+		background-color: silver;
+
+}
+
+.portfolio {	margin-top: 50px;
+				margin-bottom: 50px;
+
+}
+
+.upper-div{width: 800px;
+			margin: 0 auto;
+			
+
+}
+
+
+ h2#kaz{
+			text-align: center;
+			padding:px;
+}
+
+p#work {
+				text-align: center;
+				color: black;
+}
+
+
+.image-hover{width: 330px;
+			margin: 5px;
+			position: relative;
+			overflow: hidden;
+			display: inline-block;
+			transition: 0.5s;
+}
+
+
+.width {
+	width: 100%;
+}
+
+.image-hover-content{width: 100%;
+					top: 0;
+					right: -100%;
+					height: 100%;
+					position: absolute;
+					background:#0000ffad;
+
+}
+
+
+.fas.fa-search-plus{ font-size: 30px;
+					    background: #15154405;
+					    color: white;
+					    top: 45%;
+					    left: 36%;
+					    position: absolute;
+					    padding: 10px;
+					    border: 1px solid #02025a87;
+
+
+}
+
+
+.fas.fa-link{font-size: 30px;
+					    background: #15154405;
+					    color: white;
+					    top: 45%;
+					    left: 55%;
+					    position: absolute;
+					    padding: 10px;
+					    border: 1px solid #02025a87;
+
+
+}
+
+
+.image-hover:hover .image-hover-content{right: 0;
+										cursor: pointer;
+
+										
+
+}
+
+
+.rifat {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+.four{width: 100%;
+    float: left;
+    background: linear-gradient(#00000078,#00000075), linear-gradient(#00000075,#00000078),
+     url(../image/road.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+	background-position: center; 
+
+}
+
+.layer{margin-bottom: 100px;
+		margin-top: 100px;
+
+}
+
+
+.topper{
+
+}
+#emer{
+	text-align: center;
+	color: white;
+	font-size: 60px;
+	padding:0px 20px;
+	padding-top: 50px;
+
+}
+
+
+#gency {
+	text-align: center;
+	color: white;
+}
+
+
+.connect{width: 550px;
+		margin: 0 auto;
+		margin-top: 100px;
+		
+
+}
+
+.form-input {width: 93%;
+		    padding: 6px;
+		    border: 1px solid #dfcbe45e;
+		    outline: none;
+		    margin: 5px;
+		    background: transparent;
+		    color: white;
+
+
+}
+
+textarea{width: 93%;
+		    margin: 5px;
+		    padding: 6px;
+		    background: transparent;
+		    border: 1px solid #dfcbe45e;
+		    height: 180px;
+		    color: white;
+}
+
+
+.btn-custom {
+			    background: transparent;
+			    color: white;
+			    padding: 7px 30px;
+			    margin-left: 400px;
+			    margin-top: 00;
+			    border: 1px solid #127ce2d4;
+			    outline: none;
+			    margin-bottom: 50px;
+			    font-size: 16px;
+}
+
+.btn-custom:hover{
+					background: #00000078;
+					color: white;
+					cursor: pointer;
+
+}
+
+.check {
+	margin: 5px;}
+
+span {
+	font-size: 10px;
+}
+
+.final {
+		width: 100%;
+		float: left;
+		
+
+}
+
+.copy{
+		width: 400px;
+		float: left;
+		margin: 25px;
+		margin-left: 100px;
+
+}
+.finish {
+			font-size: 12px;
+			padding-top: 5px;
+			text-align: center;
+}
+
+.social-icon {
+			width: 400px;
+			float: right;
+			margin: 15px;
+
+}
+
+.social-icon ul{text-align: center;
+
+}
+
+.social-icon ul li{display: inline-block;
+
+}
+
+
+.social-icon ul li a {text-decoration: none;
+					color: white;
+
+}
+
+
+.fab.fa-facebook-f{padding: 10px 14px;
+					background-color: #127ce2d4;
+					color: white;
+
+
+}
+
+
+
+.fab.fa-twitter{padding: 10px;
+					background-color:#127ce2d4;
+					color: white;
+
+
+
+}
+
+.fab.fa-google-plus-g{padding: 10px 8px;
+					background-color:#127ce2d4;
+					color: white;
+
+
+
+}
+
+
+.fab.fa-linkedin-in{padding: 10px 11px;
+					background-color: #127ce2d4;
+					color: white;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
